@@ -53,7 +53,6 @@ app.options('*', cors());
 // Configure routes
 const router = express.Router();
 
-// Hello World for index page
 app.get('/', function (req, res) {
     return res.send("Hello World!");
 })
